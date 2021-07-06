@@ -27,7 +27,7 @@ def get_text():
         if text:
             return text.lower()
         elif i < 2:
-            print("Bot không nghe rõ. Bạn nói lại được không!")
+            print("Bot không hiểu ý bạn.  Bạn xem lại mình viết đúng chưa được không?")
     time.sleep(2)
     stop()
     return 0
@@ -50,7 +50,7 @@ def get_timer():
     elif "ngày" in tot:
         print("Hôm nay là ngày %d tháng %d năm %d" %(now.day, now.month, now.year))
     else:
-        print("Bot chưa hiểu ý của bạn. Bạn nói lại được không?")
+        print("Bot chưa hiểu ý của bạn. Bạn xem lại mình viết đúng chưa được không?")
 
 def open_application():
 
