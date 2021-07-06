@@ -168,6 +168,6 @@ def assistant():
             elif "thời tiết" in text:
                 current_weather()
             else:
-                print("Bạn cần Bot giúp gì ạ?")
+                print("Yêu cầu của bạn Bot chưa thể giải quyết được .Bạn cần Bot giúp gì nữa không ạ?")
 
 assistant()
